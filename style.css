@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+header nav {
+    background-color: #fff;
+    display: flex;
+    padding: 0 381px;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+}
+
+.main_top__container {
+    background: url('https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/8ab91149eb155af29f11496c/d0f3edac-474b-42be-b569-946cd98464a7.jpg');
+    height: 854px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position : center;
+    padding-top: 170px;
+    padding-left: 814px;
+}
+
+.main_top__container h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.main_top__container h1 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 130px;
+    line-height: 100px;
+    margin-top: 20px;
+}
+
+.main_top__container .unit {
+    margin-top: 160px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 55px;
+    height: 255px;
+}
+
+.main_top__container .unit .box {
+    max-width: 223px;
+}
+
+.main_top__container .unit .box .title {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:  700;
+    font-size: 22px;
+    margin-bottom: 22px;
+}
+
+.main_top__container .unit .box p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;    
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.main_top__container .unit .box a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;    
+    font-size: 18px;
+    color: black;
+    border-bottom: 1px rgb(178, 113, 0) solid;
+    font-weight: 600;
+}
+
+.deliciousBaking__container {
+    width: 100%;
+    height: 740px;
+    background-color: white;
+    padding-top: 90px;
+}
+
+.deliciousBaking__container h1 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:  700;
+    font-size: 55px;
+    margin-bottom: 90px;
+}
+
+.deliciousBaking__container .unit .box {
+    width: 366px;
+    height: 198px;
+    display: flex;
+    gap: 30px;
+}
+
+.deliciousBaking__container .unit .box .descr .title{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+.deliciousBaking__container .unit .box .descr p {
+    margin-top: 20px;
+}
+
+.deliciousBaking__container .unit .box img {
+    width: 65px;
+    height: 65px;
+}
+
+.deliciousBaking__container .unit {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.freshBreads__container {
+    background-color: black;
+    height: 691px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.freshBreads__container img {
+    width: 912px;
+    height: 691px;
+    object-fit: cover;
+}
+
+.freshBreads__container h2 {
+    font-size: 50px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    padding-top: 165px;
+}
+
+.freshBreads__container p {
+    margin-top: 30px;
+    color: white;
+    width: 539px;
+}
+
+.freshBreads__container button {
+    width: 232px;
+    height: 63px;
+    border-radius: 30px ;
+    border: white 2px solid;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.freshBreads__container button:hover {
+    background-color: white;
+    color: black;
+}
+
+.ourBreads__container {
+    width: 100%;
+    height: 1212px;
+    background-color: #F2F2F2;
+}
+
+.ourBreads__container h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.ourBreads__container .unit {
+    margin: 0 auto;
+    max-width: 1185px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.ourBreads__container .unit .card {
+    width: 266px;
+    height: 434px;
+    padding: 20px 20px 30px;
+    background-color: white;
+    box-shadow: 5px 10px 94px -52px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 10px 94px -52px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 10px 94px -52px rgba(0,0,0,0.75);
+    border-radius: 20px ;
+}
+
+.ourBreads__container .unit .card img {
+    width: 226px;
+    height: 195px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.ourBreads__container .unit .card h5 {
+    margin: 20px 0;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+}
+
+.ourBreads__container .unit .card p {
+    font-style: italic;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.ourBreads__container .unit .card a {
+    display: block;
+    text-align: center;
+    padding-bottom: 2px;
+    color: black
+}
+.ourBreads__container .unit .card a::after {
+    width: 20px;
+    height: 1px;
+}
+
+.quality__container {
+    background-color: #F2F2F2;
+    position: relative;
+    height: 788px;
+    width: 100%;
+}
+
+
+.quality__container .unit{
+    position: absolute;
+    top: 95px;
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    left: 50%;
+    right: 50%;
+}
+
+.quality__container .title h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 55px;
+}
+
+.quality__container .title img {
+    width: 422px;
+    height: 511px;
+    object-fit: cover;
+    margin-top: 85px;
+}
+
+.quality__container .absolute img {
+    width: 422px;
+    height: 623px;
+    object-fit: cover;
+}
+
+
+.produce__container {
+    margin-top: 200px;
+}
+
+
+.produce__container h3 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.produce__container .unit {
+    width: 891px;
+    height: 424px;
+    margin: 0 auto;
+    padding-right: 30px;
+}
+
+.produce__container .unit p {
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.produce__container .unit button {
+    width: 232px;
+    height: 63px;
+    border-radius: 30px ;
+    border: rgb(0, 0, 0) 2px solid;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.produce__container .unit button:hover {
+    background-color: black;
+    color: white;
+}
+
+.menu__container {
+    background: url('https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/7498296e4db8581c94ab1c35/uyy.jpg');
+    height: 787px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 122px;
+}
+
+.menu__container h2 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.menu__container .unit {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.menu__container .unit .card {
+    width: 363px;
+    height: 308px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.menu__container .unit .card .title {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    margin-bottom: 30px;
+}
+
+.menu__container .unit .card ul {
+    list-style: none;
+}
+
+.menu__container .unit .card ul li:before {
+    content:  "—";
+    position: relative;
+    left:     -5px;
+
+
+}
+
+.menu__container .unit .card ul li {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.hero__container {
+    padding-top: 65px;
+    background-color: #F6F6F8;
+}
+
+.hero__container h2 {
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+}
+
+.hero__container button {
+    width: 232px;
+    height: 63px;
+    border-radius: 30px ;
+    border: rgb(0, 0, 0) 2px solid;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: .3s;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.hero__container button:hover {
+    background-color: black;
+    color: white;
+}
+
+.hero__container img {
+    display: block;
+    margin: 0 auto;
+}
+
+.conactUs_container {
+    background: url('https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/24603cd782245767bd392073/8ef955c5-6288-4e53-ac9f-43c01939eb09.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 165px;
+    padding-left: 380px;
+    height: 836px;
+    width: 100%;
+}
+.conactUs_container .unit {
+    background-color: #201E1F;
+    border-radius: 20px;
+    width: 508px;
+    height: 509px;
+    padding: 35px;
+}
+.conactUs_container h3 {
+    color: #F2952D;
+    text-align: center;
+    font-size: 36px;
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.workTime {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.phome {
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.email {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.email a {
+    color: rgb(255, 162, 0);
+    text-decoration: none;
+}
+
+.addressTitle {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 18px;
+    color: white;
+}
+
+.address {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+footer {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+}
